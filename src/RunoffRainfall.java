@@ -11,8 +11,8 @@ public class RunoffRainfall {
         int dimension2 = scan.nextInt();
         int dimension1Inch = dimension1*12;
         int dimension2Inch = dimension2*12;
-        int numberOFInches = dimension1Inch * dimension2Inch *1;
-        int waterRun = numberOFInches/231;
+        double numberOFInches = dimension1Inch * dimension2Inch *1;
+        double waterRun = numberOFInches/231;
 
         System.out.println("Amount of water runs off a roof in a rain storm equals:"+ waterRun);
 
